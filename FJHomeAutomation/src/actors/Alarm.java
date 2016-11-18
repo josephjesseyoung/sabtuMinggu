@@ -2,17 +2,17 @@ package actors;
 
 public class Alarm {
 	
-	private boolean isOn;
+	private boolean on;
 	
 	public Alarm(){
 		
 	}
-
-	public boolean isOn() {
-		return isOn;
+	
+	public void setOn(){
+		on = true;
 	}
-
-	public void setOn(boolean isOn) {
-		this.isOn = isOn;
+	
+	public void setOff(){
+		on = false;
 	}
 }
