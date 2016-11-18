@@ -15,5 +15,5 @@ public class DoorLock {
 	public void setOn(boolean isOn) {
 		this.isOn = isOn;
 	}
-	//f
+	
 }

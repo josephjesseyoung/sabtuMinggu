@@ -15,5 +15,5 @@ public class WindowBlind {
 	public void setOpenBlind(int openBlind) {
 		this.openBlind = openBlind;
 	}
-	//f
+	
 }
