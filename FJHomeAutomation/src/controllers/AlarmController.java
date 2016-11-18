@@ -3,12 +3,21 @@ package controllers;
 import actors.Alarm;
 import interfaces.Controller;
 
-public class AlarmController implements Controller {
+public class AlarmController {
 	
 	Alarm alarm = new Alarm();
 	
-	@Override
-	public boolean isThereAlien(boolean alien) {
+	public AlarmController() {
+		
+	}
 	
-	}	
+	public void action(boolean alien) {
+		
+		if(alien==true) {
+			alarm.setOn();
+		}
+		else{
+			alarm.setOff();
+		}
+	}
 }
